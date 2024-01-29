@@ -1,0 +1,9 @@
+curl con php 
+consumo de una API
+CURL = Client URL
+Nos sirve para transa ferencia de informacion 
+
+link de api:https://www.exchangerate-api.com/
+
+convercion de dolares a quetzales guatemaltecos
+
