@@ -2,7 +2,7 @@
 
 if(isset($_POST["valor"])) {
     $valor= floatval($_POST["valor"]);
-    $apiUrl="https://v6.exchangerate-api.com/v6/215a82bd9662e3f5a2cb058a/pair/USD/GTQ/{$valor}";
+    $apiUrl="";
     $iniciarCURL = curl_init($apiUrl);
     curl_setopt( $iniciarCURL, CURLOPT_RETURNTRANSFER, true);
     $respuesta= curl_exec($iniciarCURL);
